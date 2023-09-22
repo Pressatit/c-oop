@@ -1,0 +1,31 @@
+# include <iostream>
+using namespace std;
+
+int main()
+{
+    float height;
+    float hyp;
+    float base;
+    float area;
+    float perimeter;
+
+
+
+  cout<<"Enter height :";
+  cin>>height;
+  cout<<"Enter hypotenuse: ";
+  cin>>hyp;
+  cout<<"Enter base : ";
+  cin>>base;
+
+  area=0.5*base*height;
+
+  perimeter=base+height+hyp;
+
+   cout<<"The area of the triangle is "<<area<<endl;
+
+   cout<<"The perimeter of the triangle is "<<perimeter<<endl;
+
+
+
+}
